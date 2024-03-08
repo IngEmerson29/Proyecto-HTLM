@@ -1,0 +1,87 @@
+html{
+    
+    background-image: url('fondo2.jpg');
+}
+h1{
+    color: rgb(247, 223, 92);
+    font-size: 35px;
+    font-family: 'Kode Mono';
+    text-align: center;
+    text-shadow: 0 0 25px rgba(253, 250, 58, 0.8);
+    margin: 0;
+}
+#imagen{
+    width: 120px;
+    margin-top: 15px;
+    text-align: right;
+}
+img:hover{
+    filter: drop-shadow(0 0 25px rgba(253, 250, 58, 0.8));
+}
+body{
+    margin: 0;
+}
+.loki{
+    font-size: 50px;
+    color: rgb(255, 243, 75);
+    font-family: 'Calibri';
+    float: left 2cm; 
+}
+label{
+    margin-left: 10cm;
+    text-shadow: 0 0 25px rgba(253, 250, 58, 0.8);
+}
+.entrar:hover{
+    box-shadow: 0.6rem 0.6rem 0.4rem rgba(255, 238, 2, 0.3);
+    cursor: pointer;
+}
+input{
+    color: white;
+    border: 4px solid rgb(255, 243, 75);
+    background-color: transparent;
+    font-size: 42px;
+    margin-left: 0.5cm;
+}
+input:focus{
+    outline: none;
+}
+footer{
+    
+    color: white;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+hr{
+    border: 2px solid rgb(253, 215, 47);
+}
+footer a{
+    text-align: right;
+    color: rgb(224, 222, 110);
+}
+footer a:hover{
+    cursor: pointer;
+    text-shadow: 0 0 25px rgba(253, 250, 58, 0.8);
+}
+footer p{
+    text-align: left;
+}
+footer p:hover{
+    cursor: pointer;
+    text-shadow: 0 0 25px rgba(255, 255, 255, 0.692);
+}
+button{
+    color: rgb(255, 243, 75);
+    font-size: 30px;
+    text-shadow: 0 0 20px rgba(253, 250, 58, 0.8);
+    background-color: transparent;
+    font-family: 'Calibri';
+    border: 4px solid rgb(253, 222, 110);
+    margin-left: 16cm;
+}
+button:hover{
+    box-shadow: 0.6rem 0.6rem 0.4rem rgba(255, 238, 2, 0.3);
+    cursor: pointer;
+}
